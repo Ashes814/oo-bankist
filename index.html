@@ -49,15 +49,18 @@
       <!-- MOVEMENTS -->
       <div class="movements">
         <div class="movements__row">
-            <div class="movements__type movements__type--deposit"> 2 deposit</div>
-            <div class="movements__date"> 3天前</div>
-            <div class="movements__value">4 000¥</div>
+          <div class="movements__type movements__type--deposit">2 deposit</div>
+          <div class="movements__date">3天前</div>
+          <div class="movements__value">4 000¥</div>
         </div>
         <div class="movements__row">
-            <div class="movements__type movements__type--withdrawal">1 withdrawal</div>
-            <div class="movements__date">24/01/2037</div>
-            <div class="movements__value">-378¥</div>
+          <div class="movements__type movements__type--withdrawal">
+            1 withdrawal
+          </div>
+          <div class="movements__date">24/01/2037</div>
+          <div class="movements__value">-378¥</div>
         </div>
+      </div>
 
       <!-- SUMMARY -->
       <div class="summary">
@@ -68,17 +71,17 @@
         <p class="summary__label">利息</p>
         <p class="summary__value summary__value--interest">0000¥</p>
         <button class="btn--sort">&downarrow; 排序</button>
-        </div>
+      </div>
 
       <!-- OPERATION: TRANSFERS -->
       <div class="operation operation--transfer">
         <h2>转账</h2>
         <form class="form form--transfer">
-            <input type="text" class="form__input form__input--to" />
-            <input type="number" class="form__input form__input--amount" />
-            <button class="form__btn form__btn--transfer">&rarr;</button>
-            <label class="form__label">转给账户</label>
-            <label class="form__label">金额</label>
+          <input type="text" class="form__input form__input--to" />
+          <input type="number" class="form__input form__input--amount" />
+          <button class="form__btn form__btn--transfer">&rarr;</button>
+          <label class="form__label">转给账户</label>
+          <label class="form__label">金额</label>
         </form>
       </div>
 
@@ -86,9 +89,9 @@
       <div class="operation operation--loan">
         <h2>请求贷款</h2>
         <form class="form form--loan">
-            <input type="number" class="form__input form__input--loan-amount" />
-            <button class="form__btn form__btn--loan">&rarr;</button>
-            <label class="form__label form__label--loan">金额</label>
+          <input type="number" class="form__input form__input--loan-amount" />
+          <button class="form__btn form__btn--loan">&rarr;</button>
+          <label class="form__label form__label--loan">金额</label>
         </form>
       </div>
 
@@ -96,11 +99,15 @@
       <div class="operation operation--close">
         <h2>关闭账户</h2>
         <form class="form form--close">
-            <input type="text" class="form__input form__input--user" />
-            <input type="password" maxlength="6" class="form__input form__input--pin" />
-            <button class="form__btn form__btn--close">&rarr;</button>
-            <label class="form__label">确认用户</label>
-            <label class="form__label">确认PIN</label>
+          <input type="text" class="form__input form__input--user" />
+          <input
+            type="password"
+            maxlength="6"
+            class="form__input form__input--pin"
+          />
+          <button class="form__btn form__btn--close">&rarr;</button>
+          <label class="form__label">确认用户</label>
+          <label class="form__label">确认PIN</label>
         </form>
       </div>
 
